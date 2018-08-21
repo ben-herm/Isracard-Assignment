@@ -113,7 +113,7 @@ public class MainActivity extends ReactActivity {
 ```
 
 Before you can run the project, follow the [Getting Started Guide](https://developers.facebook.com/docs/android/getting-started/) for Facebook Android SDK to set up a Facebook app.
-**make sure** you make the appropriate changes to the `strings.xml` and `AndroidManifest.xml`.
+**make sure** you make the appropriate changes to the `strings.xml` and `AndroidManifest.xml` and creating the App id + the Android key hash .
 
 **example**
 
