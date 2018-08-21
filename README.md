@@ -14,12 +14,10 @@ This is a simple app that demonstrates Google and Facebook login buttons, collec
    * [dependencies](#dependencies)
   * [Login button example](#login-button-example)
 * [Google Login](#google-login)
-  * [Publishing to Expo's React Native Community](#publishing-to-expos-react-native-community)
-  * [Building an Expo "standalone" app](#building-an-expo-standalone-app)
-  * [Ejecting from Create React Native App](#ejecting-from-create-react-native-app)
-    * [Build Dependencies (Xcode & Android Studio)](#build-dependencies-xcode-android-studio)
-    * [Should I Use ExpoKit?](#should-i-use-expokit)
-* [Troubleshooting](#troubleshooting)
+  * [Google sign in packages](#install-Google-signIn-packages)
+  * [Project setup and initialization](#project-setup-and-initializationp)
+  * [Example settings](#example-settings)
+  * [`configure(configuration)`](#configure(configuration))
   * [Networking](#networking)
   * [iOS Simulator won't open](#ios-simulator-wont-open)
   * [QR Code does not scan](#qr-code-does-not-scan)
@@ -179,7 +177,6 @@ GoogleSignin.configure({
   iosClientId: '<FROM DEVELOPER CONSOLE>', // only for iOS
 });
 ```
-
 your ClientId's can be retrieved from the **google-services.json**
 Example to access Google Drive both from the mobile application and from a backend server
 
