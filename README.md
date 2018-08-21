@@ -4,7 +4,7 @@ Below you'll find information about performing common tasks. The most recent ver
 
 ## Table of Contents
 
-* [Updating to New Releases](#updating-to-new-releases)
+* [Project installation](#installing-new-project)
 * [Available Scripts](#available-scripts)
   * [npm start](#npm-start)
   * [npm test](#npm-test)
