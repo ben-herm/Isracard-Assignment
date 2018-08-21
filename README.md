@@ -11,7 +11,7 @@ This is a simple app that demonstrates Google and Facebook login buttons, collec
   * [Fbsdk packages](#install-fbsdk-javascript-packages)
   * [React native version > 0.29](#react-native-version)
   * [Facebook developer guide](#facebook-developer-guide)
-  * [Configuring Packager IP Address](#configuring-packager-ip-address)
+   * [dependencies](#dependencies)
 * [Customizing App Display Name and Icon](#customizing-app-display-name-and-icon)
 * [Sharing and Deployment](#sharing-and-deployment)
   * [Publishing to Expo's React Native Community](#publishing-to-expos-react-native-community)
@@ -122,7 +122,7 @@ Before you can run the project, follow the [Getting Started Guide](https://devel
 ![string](https://user-images.githubusercontent.com/39523738/44432278-1f1fc800-a5aa-11e8-8195-bca095bcdb7e.png)
 ![manifest](https://user-images.githubusercontent.com/39523738/44432239-e384fe00-a5a9-11e8-8d76-74b2ee920128.png)
 
-### dependencies
+### Dependencies
 
 make sure you update your facebook dependencies in your C:\Users\Path\To\Project\android\app\build.gradle
 
