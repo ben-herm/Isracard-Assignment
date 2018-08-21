@@ -8,7 +8,7 @@ This is a simple app that demonstrates Google and Facebook login buttons, collec
 
 * [Project installation](#installing-new-project)
 * [Facebook Login](#facebook-login)
-* [Available Scripts](#available-scripts)
+* [Fbsdk packages](#install-fbsdk-javascript-packages)
   * [npm start](#npm-start)
   * [npm test](#npm-test)
   * [npm run ios](#npm-run-ios)
