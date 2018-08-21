@@ -12,7 +12,7 @@ This is a simple app that demonstrates Google and Facebook login buttons, collec
   * [React native version > 0.29](#react-native-version)
   * [Facebook developer guide](#facebook-developer-guide)
    * [dependencies](#dependencies)
-* [Customizing App Display Name and Icon](#customizing-app-display-name-and-icon)
+  * [Login button example](#login-button-example)
 * [Sharing and Deployment](#sharing-and-deployment)
   * [Publishing to Expo's React Native Community](#publishing-to-expos-react-native-community)
   * [Building an Expo "standalone" app](#building-an-expo-standalone-app)
@@ -132,6 +132,7 @@ as well as your android compilesettings:
 
 ![androidcompile](https://user-images.githubusercontent.com/39523738/44432725-f4367380-a5ab-11e8-99f8-0e0d6f14d7bc.png)
 
+### Login button example
 
 
 #### `npm test`
