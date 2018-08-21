@@ -31,6 +31,12 @@ create-react-native-app isracard
 ```
 If you do not know how to emulate an android device see this guide [Android studio](https://facebook.github.io/react-native/docs/getting-started.html) - Building apps with native code.
 
+after setting up and running the emulator run the command:
+```ruby
+react-native run-android
+```
+in order to sync your project
+
 # Facebook Login
 
 
