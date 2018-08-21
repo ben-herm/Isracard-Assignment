@@ -36,7 +36,7 @@ create-react-native-app isracard
 ```
 If you do not know how to emulate an android device see this guide [Android studio](https://facebook.github.io/react-native/docs/getting-started.html) - Building apps with native code.
 
-## facebook Login
+# Facebook Login
 
 
 ### Install fbsdk javascript packages
