@@ -134,6 +134,7 @@ as well as your android compilesettings:
 
 ### Login button example
 
+![fblogin](https://user-images.githubusercontent.com/39523738/44433765-5a24fa00-a5b0-11e8-960d-cae7743bbba4.png)
 
 #### `npm test`
 
