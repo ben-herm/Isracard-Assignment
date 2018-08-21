@@ -26,7 +26,7 @@ Below you'll find information about performing common tasks. The most recent ver
   * [iOS Simulator won't open](#ios-simulator-wont-open)
   * [QR Code does not scan](#qr-code-does-not-scan)
 
-## Updating to New Releases
+## installing New project
 
 You should only need to update the global installation of `create-react-native-app` very rarely, ideally never.
 
