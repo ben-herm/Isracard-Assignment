@@ -45,6 +45,7 @@ react-native link react-native-fbsdk
 ```
 
 **react-native version is 0.29 or above**
+
 Go to `MainApplication.java` and `MainActivity.java` under `app/src/main/java/com/<project name>/` to complete setup.
 
 In `MainApplication.java`,
