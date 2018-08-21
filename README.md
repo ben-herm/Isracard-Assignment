@@ -41,7 +41,7 @@ react-native run-android
 
 
 
-### Install fbsdk javascript packages
+### Install fbsdk packages
 
 Install and link the react-native-fbsdk package:
 ```ruby
@@ -145,5 +145,52 @@ as well as your android compilesettings:
 
 
 ### Google Login
+
+
+## Install Google signIn packages
+
+```ruby
+npm install react-native-google-signin --save
+react-native link react-native-google-signin
+```
+
+## Project setup and initialization
+
+See [Android guide](android-guide.md) to setup the Android sdk packages, Google project configuration - > **google-services.json** and rewrite the associated dependecies and follow [this](./get-config-file.md) guide to get the configuration file and setup a firebase project for authorization.
+
+# Example settings
+
+
+
+#### `configure(configuration)`
+
+for the purpose of this project a config script was not created.
+Nonetheless, It is mandatory to call this method before attempting to call `signIn()` and `signInSilently()`. This method is sync meaning you can call `signIn` / `signInSilently` right after it. In typical scenarios, `configure` needs to be called only once, after your app starts.
+
+Example for default configuration: you get user email and basic profile info.
+
+```js
+import { GoogleSignin, GoogleSigninButton } from 'react-native-google-signin';
+
+GoogleSignin.configure({
+  iosClientId: '<FROM DEVELOPER CONSOLE>', // only for iOS
+});
+```
+
+your ClientId's can be retrieved from
+
+Example to access Google Drive both from the mobile application and from the backend server
+
+```js
+GoogleSignin.configure({
+  scopes: ['https://www.googleapis.com/auth/drive.readonly'], // what API you want to access on behalf of the user, default is email and profile
+  iosClientId: '<FROM DEVELOPER CONSOLE>', // only for iOS
+  webClientId: '<FROM DEVELOPER CONSOLE>', // client ID of type WEB for your server (needed to verify user ID and offline access)
+  offlineAccess: true, // if you want to access Google API on behalf of the user FROM YOUR SERVER
+  hostedDomain: '', // specifies a hosted domain restriction
+  forceConsentPrompt: true, // [Android] if you want to show the authorization prompt at each login
+  accountName: '', // [Android] specifies an account name on the device that should be used
+});
+```
 
 
