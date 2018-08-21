@@ -7,7 +7,7 @@ This is a simple app that demonstrates Google and Facebook login buttons, collec
 ## Table of Contents
 
 * [Project installation](#installing-new-project)
-* [Facebook Login]
+* [Facebook Login](Facebook-Login)
 * [Available Scripts](#available-scripts)
   * [npm start](#npm-start)
   * [npm test](#npm-test)
@@ -35,6 +35,8 @@ First create a React Native project:
 create-react-native-app isracard
 ```
 If you do not know how to emulate an android device see this guide [Android studio](https://facebook.github.io/react-native/docs/getting-started.html) - Building apps with native code.
+
+#Facebook Login
 
 
 ### Install fbsdk javascript packages
