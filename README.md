@@ -33,11 +33,39 @@ First create a React Native project:
 ```ruby
 create-react-native-app isracard
 ```
-If you do not know how to emulate an android device see this guide [Android studio](https://facebook.github.io/react-native/docs/getting-started.html)
+If you do not know how to emulate an android device see this guide [Android studio](https://facebook.github.io/react-native/docs/getting-started.html) - Building apps with native code.
 
-## Available Scripts
 
-If Yarn was installed when the project was initialized, then dependencies will have been installed via Yarn, and you should probably use it to run these commands as well. Unlike dependency installation, command running syntax is identical for Yarn and NPM at the time of this writing.
+### 2. Install fbsdk javascript packages
+
+Install and link the react-native-fbsdk package:
+```ruby
+react-native install react-native-fbsdk
+react-native link react-native-fbsdk
+```
+
+**react-native version is 0.29 or above**
+Go to `MainApplication.java` and `MainActivity.java` under `app/src/main/java/com/<project name>/` to complete setup.
+
+In `MainApplication.java`,
+
+Add an instance variable of type `CallbackManager` and its getter.
+```java
+import com.facebook.CallbackManager;
+import com.facebook.FacebookSdk;
+import com.facebook.reactnative.androidsdk.FBSDKPackage;
+import com.facebook.appevents.AppEventsLogger;
+...
+
+public class MainApplication extends Application implements ReactApplication {
+
+  private static CallbackManager mCallbackManager = CallbackManager.Factory.create();
+
+  protected static CallbackManager getCallbackManager() {
+    return mCallbackManager;
+  }
+    //...
+```
 
 ### `npm start`
 
