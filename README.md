@@ -160,8 +160,7 @@ See [Android guide](android-guide.md) to setup the Android sdk packages, Google 
 
 # Example settings
 
-![googlesettings](https://user-images.githubusercontent.com/39523738/44434805-bfc7b500-a5b5-11e8-96a5-1329c2b30b02.png)
-
+![googlesettings](https://user-images.githubusercontent.com/39523738/44434867-1e8d2e80-a5b6-11e8-9154-f131a391bbec.png)
 
 #### `configure(configuration)`
 
