@@ -14,7 +14,7 @@ This is a simple app that demonstrates Google and Facebook login buttons, collec
    * [dependencies](#dependencies)
   * [Login button example](#login-button-example)
 * [Google Login](#google-login)
-  * [Google sign in packages](#install-google-signIn-packages)
+  * [Google sign in packages](#install-google-signin-packages)
   * [Project setup and initialization](#project-setup-and-initializationp)
   * [Example settings](#example-settings)
   * [`configure(configuration)`](#configure(configuration))
