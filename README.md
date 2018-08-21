@@ -158,6 +158,9 @@ react-native link react-native-google-signin
 
 See [Android guide](android-guide.md) to setup the Android sdk packages, Google project configuration - > **google-services.json** and rewrite the associated dependecies and follow [this](./get-config-file.md) guide to get the configuration file and setup a firebase project for authorization.
 
+**take note** - For android apps SHA1 key is obligation.
+To get the SHA1 key you need to generate your keystore, to generate your keystore follow [this](https://facebook.github.io/react-native/docs/signed-apk-android.html) guide when prompted the sha request in your firebase project settings.
+
 # Example settings
 
 ![googlesettings](https://user-images.githubusercontent.com/39523738/44434867-1e8d2e80-a5b6-11e8-9154-f131a391bbec.png)
@@ -177,9 +180,8 @@ GoogleSignin.configure({
 });
 ```
 
-your ClientId's can be retrieved from
-
-Example to access Google Drive both from the mobile application and from the backend server
+your ClientId's can be retrieved from the **google-services.json**
+Example to access Google Drive both from the mobile application and from a backend server
 
 ```js
 GoogleSignin.configure({
