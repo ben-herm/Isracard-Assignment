@@ -36,7 +36,7 @@ create-react-native-app isracard
 If you do not know how to emulate an android device see this guide [Android studio](https://facebook.github.io/react-native/docs/getting-started.html) - Building apps with native code.
 
 
-### 2. Install fbsdk javascript packages
+### Install fbsdk javascript packages
 
 Install and link the react-native-fbsdk package:
 ```ruby
@@ -120,19 +120,10 @@ Before you can run the project, follow the [Getting Started Guide](https://devel
 ![string](https://user-images.githubusercontent.com/39523738/44432278-1f1fc800-a5aa-11e8-8195-bca095bcdb7e.png)
 ![manifest](https://user-images.githubusercontent.com/39523738/44432239-e384fe00-a5a9-11e8-8d76-74b2ee920128.png)
 
-### `npm start`
+### dependencies
 
-Runs your app in development mode.
+make sure you update your facebook dependencies in your C:\Users\Ben\Desktop\isracard\android\app\build.gradle
 
-Open it in the [Expo app](https://expo.io) on your phone to view it. It will reload if you save edits to your files, and you will see build errors and logs in the terminal.
-
-Sometimes you may need to reset or clear the React Native packager's cache. To do so, you can pass the `--reset-cache` flag to the start script:
-
-```
-npm start --reset-cache
-# or
-yarn start --reset-cache
-```
 
 #### `npm test`
 
