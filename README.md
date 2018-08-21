@@ -126,7 +126,9 @@ make sure you update your facebook dependencies in your C:\Users\Path\To\Project
 
 ![facebookgradle](https://user-images.githubusercontent.com/39523738/44432540-1ed3fc80-a5ab-11e8-8559-8716b2306e1c.png)
 
-as well as your
+as well as your android compilesettings:
+
+![androidcompile](https://user-images.githubusercontent.com/39523738/44432725-f4367380-a5ab-11e8-99f8-0e0d6f14d7bc.png)
 
 
 
