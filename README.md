@@ -117,10 +117,7 @@ Before you can run the project, follow the [Getting Started Guide](https://devel
 
 **example**
 ![string](https://user-images.githubusercontent.com/39523738/44431916-a4a27880-a5a8-11e8-9ee9-a34eded911dc.png)
-
 ![manifest](https://user-images.githubusercontent.com/39523738/44432239-e384fe00-a5a9-11e8-8d76-74b2ee920128.png)
-![manifest2](https://user-images.githubusercontent.com/39523738/44432241-e5e75800-a5a9-11e8-97c4-7040fc05f3f1.png)
-
 
 ### `npm start`
 
