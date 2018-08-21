@@ -9,7 +9,7 @@ This is a simple app that demonstrates Google and Facebook login buttons, collec
 * [Project installation](#installing-new-project)
 * [Facebook Login](#facebook-login)
   * [Fbsdk packages](#install-fbsdk-javascript-packages)
-  * [Writing and Running Tests](#react-native-version-is-0.29-or-above)
+  * [React native version > 0.29](#react-native-version-is-0.29-or-above)
 * [Environment Variables](#environment-variables)
   * [Configuring Packager IP Address](#configuring-packager-ip-address)
 * [Customizing App Display Name and Icon](#customizing-app-display-name-and-icon)
@@ -42,7 +42,7 @@ react-native install react-native-fbsdk
 react-native link react-native-fbsdk
 ```
 
-### react native version is 0.29 or above
+### React native version is 0.29 or above
 
 Go to `MainApplication.java` and `MainActivity.java` under `app/src/main/java/com/<project name>/` to complete setup.
 
