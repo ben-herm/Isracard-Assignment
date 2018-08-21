@@ -116,6 +116,7 @@ Before you can run the project, follow the [Getting Started Guide](https://devel
 **make sure** you make the appropriate changes to the `strings.xml` and `AndroidManifest.xml`.
 
 **example**
+![string](https://user-images.githubusercontent.com/39523738/44431916-a4a27880-a5a8-11e8-9ee9-a34eded911dc.png)
 
 
 
