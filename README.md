@@ -10,7 +10,7 @@ This is a simple app that demonstrates Google and Facebook login buttons, collec
 * [Facebook Login](#facebook-login)
   * [Fbsdk packages](#install-fbsdk-javascript-packages)
   * [React native version > 0.29](#react-native-version)
-* [Environment Variables](#environment-variables)
+  * [Facebook developer guide](#facebook-developer-guide)
   * [Configuring Packager IP Address](#configuring-packager-ip-address)
 * [Customizing App Display Name and Icon](#customizing-app-display-name-and-icon)
 * [Sharing and Deployment](#sharing-and-deployment)
@@ -111,6 +111,8 @@ public class MainActivity extends ReactActivity {
     }
     //...
 ```
+
+## Facebook developer guide
 
 Before you can run the project, follow the [Getting Started Guide](https://developers.facebook.com/docs/android/getting-started/) for Facebook Android SDK to set up a Facebook app.
 **make sure** you make the appropriate changes to the `strings.xml` and `AndroidManifest.xml` and creating the App id + the Android key hash .
