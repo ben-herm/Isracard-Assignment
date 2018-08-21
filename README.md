@@ -68,6 +68,57 @@ public class MainApplication extends Application implements ReactApplication {
     //...
 ```
 
+If you want to use AppEventsLogger to log events, override `onCreate()` method and add
+```java
+@Override
+public void onCreate() {
+  super.onCreate();
+  AppEventsLogger.activateApp(this);
+  //...
+}
+```
+
+Register Fbsdk package in method 'getPackes()'.
+```java
+private final ReactNativeHost mReactNativeHost = new ReactNativeHost(this) {
+    @Override
+    public boolean getUseDeveloperSupport() {
+      return BuildConfig.DEBUG;
+    }
+
+    @Override
+    protected List<ReactPackage> getPackages() {
+      return Arrays.<ReactPackage>asList(
+          new MainReactPackage(),
+          new FBSDKPackage(mCallbackManager)
+      );
+    }
+};
+```
+
+In `MainActivity.java`
+
+Override `onActivityResult()` method
+```java
+import android.content.Intent;
+
+public class MainActivity extends ReactActivity {
+
+    @Override
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        MainApplication.getCallbackManager().onActivityResult(requestCode, resultCode, data);
+    }
+    //...
+```
+
+Before you can run the project, follow the [Getting Started Guide](https://developers.facebook.com/docs/android/getting-started/) for Facebook Android SDK to set up a Facebook app.
+**make sure** you make the appropriate changes to the `strings.xml` and `AndroidManifest.xml`.
+
+**example**
+
+
+
 ### `npm start`
 
 Runs your app in development mode.
