@@ -122,9 +122,11 @@ Before you can run the project, follow the [Getting Started Guide](https://devel
 
 ### dependencies
 
-make sure you update your facebook dependencies in your C:\Users\Ben\Desktop\isracard\android\app\build.gradle
+make sure you update your facebook dependencies in your C:\Users\Path\To\Project\android\app\build.gradle
 
 ![facebookgradle](https://user-images.githubusercontent.com/39523738/44432540-1ed3fc80-a5ab-11e8-8559-8716b2306e1c.png)
+
+as well as your
 
 
 
