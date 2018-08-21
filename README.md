@@ -144,7 +144,7 @@ as well as your android compilesettings:
 ![fblogin](https://user-images.githubusercontent.com/39523738/44433765-5a24fa00-a5b0-11e8-960d-cae7743bbba4.png)
 
 
-### Google Login
+# Google Login
 
 
 ## Install Google signIn packages
@@ -160,6 +160,7 @@ See [Android guide](android-guide.md) to setup the Android sdk packages, Google 
 
 # Example settings
 
+![googlesettings](https://user-images.githubusercontent.com/39523738/44434805-bfc7b500-a5b5-11e8-96a5-1329c2b30b02.png)
 
 
 #### `configure(configuration)`
