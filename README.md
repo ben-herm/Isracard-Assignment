@@ -190,7 +190,50 @@ as well as your android compilesettings:
                 }
                 }/>
  ```
+ 
+ ### In order to retrieve user data you must import the neccessery packages from the fbsdk and implement the access token.
+ ### The Graph API is the primary way to read from and write to the Facebook social graph.
+ 
+ ```java
+ import { LoginButton, AccessToken, GraphRequest, GraphRequestManager } from 'react-native-fbsdk';
+```
 
+## example 
+
+```java
+getFaceBookUserData = async () => {
+        AccessToken.getCurrentAccessToken().then(
+            (data) => {
+                let accessToken = data.accessToken;
+                const responseInfoCallback = (error, result) => {
+                    if (error) {
+                        alert('Error fetching data: ' + error.toString());
+                    } else {
+                        this.props.onFaceBookLogin(this.state.FacebookSigned)
+                        this.setState({
+                            FacebookSigned: true,
+                          });
+                        AsyncStorage.setItem('name', result.name)
+                        AsyncStorage.setItem('image', result.picture.data.url)
+                    }
+                }
+                const infoRequest = new GraphRequest(
+                    '/me',
+                    {
+                        accessToken: accessToken,
+                        parameters: {
+                            fields: {
+                                string: 'name, picture'
+                            }
+                        }
+                    },
+                    responseInfoCallback
+                );
+                // Start the graph request.
+                new GraphRequestManager().addRequest(infoRequest).start();
+            })
+    }
+    ```
 
 # Google Login
 
