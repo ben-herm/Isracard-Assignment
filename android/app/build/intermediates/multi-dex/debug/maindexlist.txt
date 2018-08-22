@@ -229,10 +229,6 @@ com/google/android/gms/stats/GCoreWakefulBroadcastReceiver.class
 com/google/android/gms/stats/WakeLock.class
 com/google/firebase/auth/ActionCodeResult$ActionDataKey.class
 com/google/firebase/auth/ActionCodeResult$Operation.class
-com/google/firebase/database/Exclude.class
-com/google/firebase/database/IgnoreExtraProperties.class
-com/google/firebase/database/PropertyName.class
-com/google/firebase/database/ThrowOnExtraProperties.class
 com/google/firebase/storage/StorageException$ErrorCode.class
 com/isracard/BuildConfig.class
 com/isracard/MainApplication$1.class

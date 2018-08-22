@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\Ben\\Desktop\\isracard\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pt-rBR\\values-pt-rBR.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Ben\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\4d0f7062175dead15173be28284e9cf1\\res\\values-pt-rBR\\values-pt-rBR.xml",
+                    "source": "C:\\Users\\Ben\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\f173d41504bd722193a87458b402f43e\\res\\values-pt-rBR\\values-pt-rBR.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Ben\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-15.0.1.aar\\21078c289bb7f668368c25d6b99738cd\\res\\values-pt-rBR\\values.xml",
+                    "source": "C:\\Users\\Ben\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-15.0.1.aar\\722aef1c00762dd6d5422f3a71f98967\\res\\values-pt-rBR\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -38,24 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Ben\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\4da4a91eef6febce55659a9363fa8e6e\\res\\values-pt-rBR\\values-pt-rBR.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "38",
-                        "startColumns": "4",
-                        "startOffsets": "4740",
-                        "endColumns": "100",
-                        "endOffsets": "4836"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Ben\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\74b09c7cd2c0ff55a0592191f3542014\\res\\values-pt-rBR\\values.xml",
+                    "source": "C:\\Users\\Ben\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\e1253ee8460af95cef8b4e041e6160f7\\res\\values-pt-rBR\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -69,6 +52,23 @@
                         "startOffsets": "1904,2011,2191,2320,2430,2656,2788,2940,3278,3507,3617,3812,3944,4160,4347,4446,4542",
                         "endColumns": "106,179,128,109,225,131,151,133,228,109,194,131,215,186,98,95,112",
                         "endOffsets": "2006,2186,2315,2425,2651,2783,2935,3069,3502,3612,3807,3939,4155,4342,4441,4537,4650"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Ben\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\7316ae77178cea698345b748e229e607\\res\\values-pt-rBR\\values-pt-rBR.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "38",
+                        "startColumns": "4",
+                        "startOffsets": "4740",
+                        "endColumns": "100",
+                        "endOffsets": "4836"
                     }
                 }
             ]

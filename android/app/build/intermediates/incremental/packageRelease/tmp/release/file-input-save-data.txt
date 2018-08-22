@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Aug 22 03:49:29 IDT 2018
+#Wed Aug 22 19:47:45 IDT 2018
 17.baseType=DIRECTORY
 4.path=lib/x86/libfb.so
 25.base=C\:\\Users\\Ben\\Desktop\\isracard\\android\\app\\build\\intermediates\\transforms\\mergeJniLibs\\release\\0

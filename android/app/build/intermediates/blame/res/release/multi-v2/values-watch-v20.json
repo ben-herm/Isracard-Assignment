@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\Ben\\Desktop\\isracard\\android\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-watch-v20\\values-watch-v20.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Ben\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-auth-15.0.1.aar\\cfa5e35dfc16dcb5eadb2beace8db888\\res\\values-watch-v20\\values.xml",
+                    "source": "C:\\Users\\Ben\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-auth-15.0.1.aar\\e1ce380bef9c8eec535de229897150fc\\res\\values-watch-v20\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11",
                         "startColumns": "0,0,0,0,0,0,0,0",
