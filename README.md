@@ -24,7 +24,7 @@ First create a React Native project:
 ```ruby
 create-react-native-app [appName]
 ```
-If you do not know how to emulate an android device see this guide [Android studio](https://facebook.github.io/react-native/docs/getting-started.html) - Building projects with native code - start from npm i react-cli.
+If you do not know how to emulate an android device see this guide [Android studio](https://facebook.github.io/react-native/docs/getting-started.html) - Building projects with native code - start from **The React Native CLI**.
 
 after setting up and running the emulator run this command in order to sync your project:
 ```ruby
