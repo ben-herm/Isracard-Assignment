@@ -155,7 +155,39 @@ as well as your android compilesettings:
 
 ### Login button example
 
-![fblogin](https://user-images.githubusercontent.com/39523738/44433765-5a24fa00-a5b0-11e8-960d-cae7743bbba4.png)
+```java
+ <LoginButton
+                style={{
+                    width: '45%',
+                    height: 30,
+                    marginTop: 5,
+                    marginLeft: 15,
+                    right: 5
+                }}
+                publishReadP={["publish_profile"]}
+                onLoginFinished={
+                    (error, result) => {
+                        if (error) {
+                        } else if (result.isCancelled) {
+                            alert("login is cancelled.");
+                        } else {
+                        //no error -> activate fetching data
+                        this.getFaceBookUserData()
+                        }
+                    }
+                }
+                onLogoutFinished={() => {
+                    //change signed state and relay.
+                    this.props.onFaceBookLogin(this.state.FacebookSigned)
+                    this.setState({
+                        FacebookSigned: false,
+                      });
+                    //remove from async storage.
+                    AsyncStorage.removeItem('name');
+                    AsyncStorage.removeItem('image');                 
+                }
+                }/>
+                ```
 
 
 # Google Login
