@@ -140,6 +140,7 @@ Before you can run the project, follow the [Getting Started Guide](https://devel
 
 **example**
 
+![string](https://user-images.githubusercontent.com/39523738/44462990-eec64100-a61e-11e8-891b-3cd944ca9e4a.png)
 
 ![manifest](https://user-images.githubusercontent.com/39523738/44432239-e384fe00-a5a9-11e8-8d76-74b2ee920128.png)
 
