@@ -187,7 +187,7 @@ as well as your android compilesettings:
                     AsyncStorage.removeItem('image');                 
                 }
                 }/>
-                ```
+ ```
 
 
 # Google Login
