@@ -140,7 +140,7 @@ Before you can run the project, follow the [Getting Started Guide](https://devel
 
 **example**
 
-![string](https://user-images.githubusercontent.com/39523738/44432278-1f1fc800-a5aa-11e8-8195-bca095bcdb7e.png)
+
 ![manifest](https://user-images.githubusercontent.com/39523738/44432239-e384fe00-a5a9-11e8-8d76-74b2ee920128.png)
 
 ### Dependencies
