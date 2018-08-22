@@ -194,8 +194,8 @@ as well as your android compilesettings:
  ### In order to retrieve user data you must import the neccessery packages from the fbsdk and implement the access token.
  ### The Graph API is the primary way to read from and write to the Facebook social graph.
  
- ```java
- import { LoginButton, AccessToken, GraphRequest, GraphRequestManager } from 'react-native-fbsdk';
+ ```ruby
+import { LoginButton, AccessToken, GraphRequest, GraphRequestManager } from 'react-native-fbsdk';
 ```
 
 ## example 
