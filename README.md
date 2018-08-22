@@ -31,6 +31,16 @@ after setting up and running the emulator run this command in order to sync your
 react-native run-android
 ``` 
 
+## Apk installment
+
+An example release apk is located in android\app\build\outputs\apk\release\app-release.apk
+once the project is completed you can [Generate a signed APK](https://facebook.github.io/react-native/docs/signed-apk-android.htmlsign)
+and set up your gradle variables as instructed.
+then, type: ``` ruby /gradlew assembleRelease ``` in your Cmd or build it directly with your Android studios.
+
+**note** - > this is the release version. but for testing the app you can use the defualt debug keystore as well.
+
+
 
 # Facebook Login
 
