@@ -17,8 +17,7 @@ This is a simple app that demonstrates Google and Facebook login buttons, collec
   * [Google sign in packages](#install-google-signin-packages)
   * [Project setup and initialization](#project-setup-and-initialization)
   * [Example settings](#example-settings)
-  * [`configure(configuration)`](#configure(configuration))
-  * [Networking](#networking)
+  * [Configuration](#configuration)
   * [iOS Simulator won't open](#ios-simulator-wont-open)
   * [QR Code does not scan](#qr-code-does-not-scan)
 
@@ -163,7 +162,7 @@ To get the SHA1 key you need to generate your keystore, to generate your keystor
 
 ![googlesettings](https://user-images.githubusercontent.com/39523738/44434867-1e8d2e80-a5b6-11e8-9154-f131a391bbec.png)
 
-#### `configure(configuration)`
+### Configuration
 
 for the purpose of this project a config script was not created.
 Nonetheless, It is mandatory to call this method before attempting to call `signIn()` and `signInSilently()`. This method is sync meaning you can call `signIn` / `signInSilently` right after it. In typical scenarios, `configure` needs to be called only once, after your app starts.
