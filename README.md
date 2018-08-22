@@ -22,7 +22,7 @@ This is a simple Android app that demonstrates Google and Facebook login buttons
 ## installing New project
 First create a React Native project:
 ```ruby
-create-react-native-app isracard
+create-react-native-app [appName]
 ```
 If you do not know how to emulate an android device see this guide [Android studio](https://facebook.github.io/react-native/docs/getting-started.html) - Building apps with native code.
 
