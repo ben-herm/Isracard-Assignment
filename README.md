@@ -17,7 +17,7 @@ This is a simple Android app that demonstrates Google and Facebook login buttons
   * [Example settings](#example-settings)
   * [Configuration](#configuration)
   * [GoogleSigningButton Example](#googlesigningbutton-example)
-  * [QR Code does not scan](#qr-code-does-not-scan)
+* [Side Notes](#side-notes)
 
 ## installing New project
 First create a React Native project:
@@ -214,4 +214,8 @@ Possible values for `color` are:
 
 - Color.Dark: apply a blue background
 - Color.Light: apply a light gray background
+
+## Side Notes
+
+
 
