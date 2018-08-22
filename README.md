@@ -6,7 +6,7 @@ This is a simple Android app that demonstrates Google and Facebook login buttons
 
 * [Project installation](#installing-new-project)
 * [Facebook Login](#facebook-login)
-  * [FBSDK packages](#install-fbsdk-javascript-packages)
+  * [Fbsdk packages](#install-fbsdk-javascript-packages)
   * [React native version > 0.29](#react-native-version)
   * [Facebook developer guide](#facebook-developer-guide)
    * [dependencies](#dependencies)
@@ -19,7 +19,7 @@ This is a simple Android app that demonstrates Google and Facebook login buttons
   * [GoogleSigningButton Example](#googlesigningbutton-example)
 * [Side Notes](#side-notes)
 
-## Installing New project
+## installing New project
 First create a React Native project:
 ```ruby
 create-react-native-app [appName]
@@ -27,7 +27,7 @@ create-react-native-app [appName]
 If you do not know how to emulate an android device see this guide [Android studio](https://facebook.github.io/react-native/docs/getting-started.html) - Building projects with native code - start from **The React Native CLI**.
 **make sure** you follow the correct steps of setting up your android sdk.
 
-After setting up and running the emulator run this command in order to sync your project:
+after setting up and running the emulator run this command in order to sync your project:
 ```ruby
 react-native run-android
 ``` 
@@ -36,16 +36,8 @@ react-native run-android
 
 ![androidemulator](https://user-images.githubusercontent.com/39523738/44462335-f7b61300-a61c-11e8-841e-4b4977269d6d.png)
 
-### FB Login Example
 
-![fbloginexample](https://user-images.githubusercontent.com/39523738/44473923-170f6900-a63a-11e8-85e7-c9704a1ca2ac.png)
-
-### Google Login Example
-
-![googleloginexample](https://user-images.githubusercontent.com/39523738/44474021-51790600-a63a-11e8-83b3-37031cee0550.png)
-
-
-## Apk installment
+## Apk build
 
 An example release apk is located in android\app\build\outputs\apk\release\app-release.apk
 once the project is completed you can [Generate a signed APK](https://facebook.github.io/react-native/docs/signed-apk-android.htmlsign)
@@ -54,9 +46,9 @@ then, type:
 ``` ruby
 /gradlew assembleRelease
 ``` 
-in your CMD or build it directly with your Android studios.
+in your Cmd or build it directly with your Android studios.
 
-**note** - > This is the release version. but for testing the app you can use the defualt debug keystore as well.
+**note** - > this is the release version. but for testing the app you can use the defualt debug keystore as well.
 
 
 
@@ -155,7 +147,7 @@ Before you can run the project, follow the [Getting Started Guide](https://devel
 
 ### Dependencies
 
-Make sure you update your facebook dependencies in your C:\Users\Path\To\Project\android\app\build.gradle
+make sure you update your facebook dependencies in your C:\Users\Path\To\Project\android\app\build.gradle
 
 ![facebookgradle](https://user-images.githubusercontent.com/39523738/44432540-1ed3fc80-a5ab-11e8-8559-8716b2306e1c.png)
 
@@ -255,9 +247,9 @@ react-native link react-native-google-signin
 
 ## Project setup and initialization
 
-See [Android guide](android-guide.md) to setup the Android sdk packages, Google project configuration - > **google-services.json** and rewrite the associated dependecies and follow [this](./get-config-file.md) guide to get the configuration file and setup a firebase project for authorization.
+See [Android guide](https://github.com/react-native-community/react-native-google-signin/blob/master/android-guide.md) to setup the Android sdk packages, Google project configuration - > **google-services.json** and rewrite the associated dependecies and follow [this](./get-config-file.md) guide to get the configuration file and setup a firebase project for authorization.
 
-**Take note** - For android apps SHA1 key is obligation.
+**take note** - For android apps SHA1 key is obligation.
 To get the SHA1 key you need to generate your keystore, to generate your keystore follow [this](https://facebook.github.io/react-native/docs/signed-apk-android.html) guide when prompted the sha request in your firebase project settings.
 
 # Example settings
@@ -266,7 +258,7 @@ To get the SHA1 key you need to generate your keystore, to generate your keystor
 
 ### Configuration
 
-For the purpose of this project a config script was not created.
+for the purpose of this project a config script was not created.
 Nonetheless, It is mandatory to call this method before attempting to call `signIn()` and `signInSilently()`. This method is sync meaning you can call `signIn` / `signInSilently` right after it. In typical scenarios, `configure` needs to be called only once, after your app starts.
 
 Example for default configuration: you get user email and basic profile info.
@@ -278,7 +270,7 @@ GoogleSignin.configure({
   iosClientId: '<FROM DEVELOPER CONSOLE>', // only for iOS
 });
 ```
-Your ClientId's can be retrieved from the **google-services.json**
+your ClientId's can be retrieved from the **google-services.json**
 Example to access Google Drive both from the mobile application and from a backend server
 
 ```js
