@@ -163,7 +163,6 @@ as well as your android compilesettings:
                     height: 30,
                     marginTop: 5,
                     marginLeft: 15,
-                    right: 5
                 }}
                 publishReadP={["publish_profile"]}
                 onLoginFinished={
