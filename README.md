@@ -1,8 +1,6 @@
 This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).
 
-Below you'll find information about performing common tasks. The most recent version of this guide is available [here](https://github.com/react-community/create-react-native-app/blob/master/react-native-scripts/template/README.md).
-
-This is a simple app that demonstrates Google and Facebook login buttons, collecting user data(name and image) and presenting them in the app. 
+This is a simple Android app that demonstrates Google and Facebook login buttons, collecting user data(name and image) and presenting them in the app UI. 
 
 ## Table of Contents
 
