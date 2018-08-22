@@ -1,0 +1,3 @@
+# Referenced at C:\Users\Ben\Desktop\isracard\android\app\build\intermediates\manifests\full\release\AndroidManifest.xml:31
+-keep class com.isracard.MainApplication { <init>(...); }
+

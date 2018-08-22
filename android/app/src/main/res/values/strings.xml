@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">isracard</string>
+    <string name="facebook_app_id">2212634905640178</string>
+    <string name="fb_login_protocol_scheme">fb2212634905640178</string>
+</resources>
