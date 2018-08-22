@@ -36,6 +36,11 @@ react-native run-android
 
 ![androidemulator](https://user-images.githubusercontent.com/39523738/44462335-f7b61300-a61c-11e8-841e-4b4977269d6d.png)
 
+### FB Login Example
+
+![fbloginexample](https://user-images.githubusercontent.com/39523738/44473923-170f6900-a63a-11e8-85e7-c9704a1ca2ac.png)
+
+
 
 ## Apk installment
 
