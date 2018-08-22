@@ -18,7 +18,7 @@ This is a simple app that demonstrates Google and Facebook login buttons, collec
   * [Project setup and initialization](#project-setup-and-initialization)
   * [Example settings](#example-settings)
   * [Configuration](#configuration)
-  * [iOS Simulator won't open](#ios-simulator-wont-open)
+  * [GoogleSigningButton Example](#googlesigningbutton-example)
   * [QR Code does not scan](#qr-code-does-not-scan)
 
 ## installing New project
@@ -190,5 +190,10 @@ GoogleSignin.configure({
   accountName: '', // [Android] specifies an account name on the device that should be used
 });
 ```
+
+## GoogleSigningButton Example
+
+
+![googlebutton](https://user-images.githubusercontent.com/39523738/44435281-e7b81800-a5b7-11e8-8331-a623cd23b940.png)
 
 
