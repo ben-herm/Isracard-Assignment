@@ -233,7 +233,7 @@ getFaceBookUserData = async () => {
                 new GraphRequestManager().addRequest(infoRequest).start();
             })
     }
-    ```
+```
 
 # Google Login
 
