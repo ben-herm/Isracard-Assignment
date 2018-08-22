@@ -45,7 +45,7 @@ then, type:
 ``` ruby
 /gradlew assembleRelease
 ``` 
-in your Cmd or build it directly with your Android studios.
+in your CMD or build it directly with your Android studios.
 
 **note** - > this is the release version. but for testing the app you can use the defualt debug keystore as well.
 
