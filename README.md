@@ -39,7 +39,6 @@ react-native run-android
 
 ## Apk build
 
-An example release apk is located in android\app\build\outputs\apk\release\app-release.apk
 once the project is completed you can [Generate a signed APK](https://facebook.github.io/react-native/docs/signed-apk-android.htmlsign)
 and set up your gradle variables as instructed.
 then, type:
