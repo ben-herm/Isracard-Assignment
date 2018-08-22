@@ -33,7 +33,7 @@ react-native run-android
 ``` 
 
 ### After currectly setting up your emulator and running the app your code will be rendered into the emulator.
-## Example
+## Completed App Example
 
 ![androidemulator](https://user-images.githubusercontent.com/39523738/44462335-f7b61300-a61c-11e8-841e-4b4977269d6d.png)
 
