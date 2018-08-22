@@ -193,7 +193,16 @@ GoogleSignin.configure({
 
 ## GoogleSigningButton Example
 
-
-![googlebutton](https://user-images.githubusercontent.com/39523738/44435281-e7b81800-a5b7-11e8-8331-a623cd23b940.png)
-
+```js
+  <GoogleSigninButton
+                    style={{
+                      width: "45%",
+                      height: 37,
+                      marginLeft: 8
+                    }}
+                    size={GoogleSigninButton.Size.Standard}
+                    color={GoogleSigninButton.Color.Auto}
+                    onPress={this.onLoginOrRegister}
+                  />
+```
 
