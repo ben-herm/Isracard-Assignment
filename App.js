@@ -13,9 +13,9 @@ import {
 } from 'react-native';
 
 import firebase from 'react-native-firebase';
-import { GoogleSignin, GoogleSigninButton} from 'react-native-google-signin';
+import { GoogleSignin, GoogleSigninButton } from 'react-native-google-signin';
 import config from './';
-import {FBLoginButton} from './components/FBLogin'
+import { FBLoginButton } from './components/FBLogin'
 
 export default class App extends React.Component {
   constructor(props) {
@@ -36,18 +36,26 @@ export default class App extends React.Component {
   }
 
   handleFChange(value) {
-    if(value === false) {
-      this.setState({FacebookSigned:true});
-    }else if (value === true) {
-      this.setState({FacebookSigned:false});
-    } 
+    if (value === false) {
+      this.setState({
+        FacebookSigned: true,
+        LoginTextMsg: "Thank you!"
+      });
+    } else if (value === true) {
+      this.setState({
+        FacebookSigned: false,
+        LoginTextMsg: "Please log in to your Facebook or Google account."
+      });
+    }
   }
+
 
   //Update state function -> get values from AsynceStorage if not null and set to state.
 
   async UpdateState() {
     Uname = await AsyncStorage.getItem('name');
     Uimage = await AsyncStorage.getItem('image');
+    Utext = await AsyncStorage.getItem('msg');
     if ((Uname != null) && (Uimage != null)) {
       this.setState({
         name: Uname,
@@ -75,7 +83,7 @@ export default class App extends React.Component {
     this.authSubscription();
   }
 
-//started building modules for each platform -currently undefined.
+  //started building modules for each platform -currently undefined.
   _configureGoogleSignIn() {
     const configPlatform = {
       ...Platform.select({
@@ -166,6 +174,13 @@ export default class App extends React.Component {
               </View>
             </View>
             <View style={{ flex: 1, flexDirection: 'row', marginTop: 100 }}>
+            {
+                (this.state.GoogleSigned) ?
+                  <View></View> :
+                  <FBLoginButton
+                    onFaceBookLogin={this.handleFChange}
+                  />
+              }
               {
                 (this.state.FacebookSigned) ?
                   <View></View>
@@ -174,7 +189,7 @@ export default class App extends React.Component {
                     style={{
                       width: "45%",
                       height: 37,
-                      marginLeft: 10
+                      marginLeft: 8
                     }}
                     size={GoogleSigninButton.Size.Standard}
                     color={GoogleSigninButton.Color.Auto}
@@ -182,13 +197,7 @@ export default class App extends React.Component {
                   />
               }
               {this.renderError()}
-              {
-                (this.state.GoogleSigned) ?
-                  <View></View> :
-                  <FBLoginButton
-                  onFaceBookLogin={this.handleFChange}
-                  />
-              }
+        
             </View>
           </View>
         </ScrollView>
@@ -214,6 +223,11 @@ export default class App extends React.Component {
               </View>
             </View>
             <View style={{ flex: 1, flexDirection: 'row', marginTop: 100 }}>
+            {
+                (this.state.GoogleSigned) ?
+                  <View></View> :
+                    <FBLoginButton/>
+              }
               {
                 (this.state.FacebookSigned) ?
                   <View></View>
@@ -228,11 +242,6 @@ export default class App extends React.Component {
                   </TouchableOpacity>
               }
               {this.renderError()}
-              {
-                (this.state.GoogleSigned) ?
-                  <View></View> :
-                  <FBLoginButton/>
-              }
             </View>
           </View>
         </ScrollView>
@@ -245,6 +254,10 @@ const styles = StyleSheet.create({
   container: {
     flexDirection: 'column',
     flex: 1
+  },
+  buttonContainer: {
+    width:"90%",
+    left: 255
   },
   header: {
     padding: 30,

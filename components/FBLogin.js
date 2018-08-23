@@ -28,6 +28,7 @@ export class FBLoginButton extends Component {
                           });
                         AsyncStorage.setItem('name', result.name)
                         AsyncStorage.setItem('image', result.picture.data.url)
+                        AsyncStorage.setItem('msg', "Thank you!")
                     }
                 }
                 const infoRequest = new GraphRequest(
