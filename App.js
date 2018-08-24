@@ -31,17 +31,19 @@ export default class App extends React.Component {
       error: null,
       LoginTextMsg: "Please log in to your Facebook or Google account.",
       GoogleSigned: false,
-      FacebookSigned: false
+      FacebookSigned: false,
+      firstLaunch:null
     };
   }
 
+
   handleFChange(value) {
-    if (value === false) {
+    if (!value) {
       this.setState({
         FacebookSigned: true,
         LoginTextMsg: "Thank you!"
       });
-    } else if (value === true) {
+    } else if (value) {
       this.setState({
         FacebookSigned: false,
         LoginTextMsg: "Please log in to your Facebook or Google account."
@@ -70,7 +72,7 @@ export default class App extends React.Component {
   }
 
   //initialize google signIn configuration before auth.
-  async componentDidMount() {
+   componentDidMount() {
     this._configureGoogleSignIn();
     this.authSubscription = firebase.auth().onAuthStateChanged((user) => {
       this.setState({
@@ -186,18 +188,13 @@ export default class App extends React.Component {
                   <View></View>
                   :
                   <GoogleSigninButton
-                    style={{
-                      width: "45%",
-                      height: 37,
-                      marginLeft: 8
-                    }}
+                    style={styles.googleButton2}
                     size={GoogleSigninButton.Size.Standard}
                     color={GoogleSigninButton.Color.Auto}
                     onPress={this.onLoginOrRegister}
                   />
               }
-              {this.renderError()}
-        
+              {this.renderError()}       
             </View>
           </View>
         </ScrollView>
@@ -325,7 +322,12 @@ const styles = StyleSheet.create({
     width: "45%",
     height: 30,
     marginTop: 5,
-    margin: 5
+    marginLeft: 110
+  },
+  googleButton2: {
+    width: "45%",
+    height: 37,
+    marginLeft: 8,
   },
   icon: {
     width: 30,
