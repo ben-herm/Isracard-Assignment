@@ -24,10 +24,11 @@ First create a React Native project:
 ```ruby
 create-react-native-app [appName]
 ```
-If you do not know how to emulate an android device see this guide [Android studio](https://facebook.github.io/react-native/docs/getting-started.html) - Building projects with native code - start from **The React Native CLI**.
+If you do not know how to emulate an Android devicE see this guide [Android studio](https://facebook.github.io/react-native/docs/getting-started.html) - Building projects with native code.
+start from **The React Native CLI**.
 **make sure** you follow the correct steps of setting up your android sdk.
 
-after setting up and running the emulator run this command in order to sync your project:
+After setting up and running the emulator run this command in order to sync your project:
 ```ruby
 react-native run-android
 ``` 
@@ -40,7 +41,7 @@ react-native run-android
 
 ## Apk build
 
-once the project is completed you can [Generate a signed APK](https://facebook.github.io/react-native/docs/signed-apk-android.htmlsign)
+Once the project is completed you can [Generate a signed APK](https://facebook.github.io/react-native/docs/signed-apk-android.htmlsign)
 and set up your gradle variables as instructed.
 then, type:
 ``` ruby
@@ -147,7 +148,7 @@ Before you can run the project, follow the [Getting Started Guide](https://devel
 
 ### Dependencies
 
-make sure you update your facebook dependencies in your C:\Users\Path\To\Project\android\app\build.gradle
+Make sure you update your facebook dependencies in your C:\Users\Path\To\Project\android\app\build.gradle
 
 ![facebookgradle](https://user-images.githubusercontent.com/39523738/44432540-1ed3fc80-a5ab-11e8-8559-8716b2306e1c.png)
 
@@ -249,11 +250,11 @@ react-native link react-native-google-signin
 See [Android guide](https://github.com/react-native-community/react-native-google-signin/blob/master/android-guide.md) to setup the Android sdk packages, Google project configuration - > **google-services.json** and rewrite the associated dependecies and follow [this](./get-config-file.md) guide to get the configuration file and setup a firebase project for authorization.
 
 **take note** - For android apps SHA1 key is obligation.
-To get the SHA1 key you need to generate your keystore, to generate your keystore follow [this](https://facebook.github.io/react-native/docs/signed-apk-android.html) guide when prompted the sha request in your firebase project settings.
+To get the SHA1 key you need to generate your keystore, to generate your keystore follow [this](https://facebook.github.io/react-native/docs/signed-apk-android.html) guide when prompted the SHA request in your firebase project settings.
 
 # Example settings
 
-![googlesettings](https://user-images.githubusercontent.com/39523738/44434867-1e8d2e80-a5b6-11e8-9154-f131a391bbec.png)
+![google settings](https://user-images.githubusercontent.com/39523738/44434867-1e8d2e80-a5b6-11e8-9154-f131a391bbec.png)
 
 ### Configuration
 
